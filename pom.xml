@@ -30,7 +30,8 @@
         <url>https://github.com/CharlesMulic/sfg-pet-clinic</url>
         <connection>https://github.com/CharlesMulic/sfg-pet-clinic.git</connection>
         <!--<connection>scm:git:git://github.com/kevinsawicki/github-maven-example.git</connection>-->
-        <developerConnection>scm:git:git@github.com:CharlesMulic/sfg-pet-clinic.git</developerConnection>
+        <!--<developerConnection>scm:git:git@github.com:CharlesMulic/sfg-pet-clinic.git</developerConnection>-->
+        <developerConnection>scm:git:CharlesMulic:T2FU8r2zVfmi6an@github.com:CharlesMulic/sfg-pet-clinic.git</developerConnection>
       <tag>sfg-pet-clinic-0.0.2</tag>
   </scm>
 
@@ -54,6 +55,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
 

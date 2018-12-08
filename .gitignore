@@ -27,3 +27,4 @@
 *.jar
 *.jar.original
 /**/target
+pom.xml.releaseBackup
