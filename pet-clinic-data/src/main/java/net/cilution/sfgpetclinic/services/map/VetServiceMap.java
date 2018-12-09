@@ -1,11 +1,11 @@
 package net.cilution.sfgpetclinic.services.map;
 
 import net.cilution.sfgpetclinic.model.Vet;
-import net.cilution.sfgpetclinic.services.CrudService;
+import net.cilution.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
