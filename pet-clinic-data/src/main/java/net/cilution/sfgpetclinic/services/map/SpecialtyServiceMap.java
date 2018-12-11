@@ -1,13 +1,13 @@
 package net.cilution.sfgpetclinic.services.map;
 
 import net.cilution.sfgpetclinic.model.Specialty;
-import net.cilution.sfgpetclinic.services.SpecialtiesService;
+import net.cilution.sfgpetclinic.services.SpecialtyService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialtiesServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtiesService {
+public class SpecialtyServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtyService {
     @Override
     public Set<Specialty> findAll() {
         return super.findAll();
